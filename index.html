@@ -9,6 +9,8 @@
     <!-- CSS  -->
     <link href="min/plugin-min.css" type="text/css" rel="stylesheet">
     <link href="min/custom-min.css" type="text/css" rel="stylesheet" >
+    <link href="css/animate.css" type="text/css" rel="stylesheet">
+
 </head>
 <body id="top" class="scrollspy">
 <!-- Pre Loader -->
@@ -62,10 +64,10 @@
     <div class="container">
         <div class="row">
             <div  class="col s12">
-				<h2 class=" header text_h2"> The Ten Commandments of <span class="span_h2"> CLOUD 360º  </span></h2>
-				<br/>
-                <h4 class=" header text_h2"> <span class="span_h2">  0º Commandment  </span> - Everything starts in the cloud. </h4>
-                <h4 class=" header text_h2"> <span class="span_h2">  1º Commandment  </span> - I have my IDE in the cloud. </h4>
+		<h2 class=" header text_h2"> The Ten Commandments of <span class="span_h2"> CLOUD 360º  </span></h2>
+		<br/>
+                <h4 class="wow slideInLeft header text_h2" data-wow-duration="2s" data-wow-delay="5s"> <span class="span_h2">  0º Commandment  </span> - Everything starts in the cloud. </h4>
+                <h4 class="wow slideInRight header text_h2" data-wow-offset="10"  data-wow-iteration="10"> <span class="span_h2">  1º Commandment  </span> - I have my IDE in the cloud. </h4>
                 <h4 class=" header text_h2"> <span class="span_h2">  2º Commandment  </span> - I commit  in the cloud. </h4>
                 <h4 class=" header text_h2"> <span class="span_h2">  3º Commandment  </span> - I deploy  in the cloud. </h4>
                 <h4 class=" header text_h2"> <span class="span_h2">  4º Commandment  </span> - I Test  in the cloud. </h4>
@@ -94,6 +96,10 @@
     <!--  Scripts-->
     <script src="min/plugin-min.js"></script>
     <script src="min/custom-min.js"></script>
+    <script src="js/wow.min.js"></script>
+        <script>
+	new WOW().init();
+    </script>
 
     </body>
 </html>
