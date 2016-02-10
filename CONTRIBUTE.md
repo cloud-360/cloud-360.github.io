@@ -1,7 +1,7 @@
 #How To Contribute?
 
 ## First, include your name in our team list:
-* Is just to fork the [member.html](https://github.com/cloud-360/cloud-360.github.io/blob/master/members.html) file 
+* Just edit the [member.html](https://github.com/cloud-360/cloud-360.github.io/blob/master/members.html) file 
 * Add you name, link to your github picture and your Github. Ex: Copy the "TAG ```html <li class="collection-item avatar" ... >```, paste right bellow and change your information
 * Commit your changes
 * Create a Pull Request
